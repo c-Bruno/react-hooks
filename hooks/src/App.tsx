@@ -1,4 +1,5 @@
 import "./App.css";
+import { UseLayoutEffectComponent } from "./hooks/useLayoutEffectComponent";
 // import { UseRefComponent } from "./hooks/useRefComponent";
 // import { UseMemoComponent } from "./hooks/useMemoComponent";
 // import { UseStataComponent } from "./hooks/useStataComponent";
@@ -7,7 +8,7 @@ import "./App.css";
 // import { UseReducedComponent } from "./hooks/useReducerComponent";
 // import { UseCallbackComponent } from "./hooks/useCallbackComponent";
 // import { UseTransitionComponent } from "./hooks/useTransitionComponent";
-import { UseDeferredValueComponent } from "./hooks/useDeferredValueComponent";
+// import { UseDeferredValueComponent } from "./hooks/useDeferredValueComponent";
 // import { UseImperativeHandleComponent } from "./hooks/UseImperativeHandleComponent";
 
 function App() {
@@ -19,8 +20,9 @@ function App() {
   // return <UseReducedComponent />; //           ----- UseReducer          -----
   // return <UseCallbackComponent />; //          ----- UseCallback         -----
   // return <UseTransitionComponent />; //        ----- UseTransition       -----
-  return <UseDeferredValueComponent />; //      ----- UseDeferredValue     -----
+  // return <UseDeferredValueComponent />; //     ----- UseDeferredValue    -----
   // return <UseImperativeHandleComponent />; //  ----- UseImperativeHandle -----
+  return <UseLayoutEffectComponent/>;  //       ----- UseLayoutEffect     -----
   return <></>;
 }
 
